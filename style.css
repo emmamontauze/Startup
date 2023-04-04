@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Delicious+Handrawn&family=Lobster&family=Lora:wght@400;500;600&family=Oswald:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500&family=Staatliches&display=swap');
+@import url("components/container.css");
+@import url("components/bulle.css");
+@import url("components/btn-blue.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'lora', serif;
+	font-size: 18px;
+	margin: 0;
+	background: #f8f8f8
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+h1,h2{
+	font-family: 'Oswald',sans-serif;
+	font-weight: 300;
+}
+.orange{
+	color: #333;
+	
+	font-family: 'lora', serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
+
+.list-inline  {
+    list-style: none ;
+    padding-left: 0px;
+    text-align: center;
+
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    color: blue;
+
+}
+
+
+
+a{
+	text-decoration: none;
+	font-family: 'roboto', serif;
+}
+
+p{
+	font-family: 'lora', serif;
+}
+
+.banner{
+	background-image: linear-gradient(58deg, rgba(0,0,0,0.2) 13%, rgba(0,0,0,0.2) 50%), url(luxe.jpg);
+	color: white;
+	padding:150px 0px;
+	background-position: center;
+	background-size: cover;
+
+ }
+ .banner h1 {
+
+ 	font-size: 50px;
+ }
+ .banner h2 {
+ 	font-size: 30px;
+ 	font-weight: lighter;
+ 	margin-bottom: 40px;
+ }
+
+ .btn-blue {
+	background-color:#7e66669c;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.btn-blue:hover {
+	background-color: #6f5036c7;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.card{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    
+    border-radius: 6px;
+    margin: 10px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    
+}
+.card img{
+    border-radius: 6px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    width: 100px;
+    }
+.card h3{   
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Oswald:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&family=Staatliches&display=swap');
+
+.container{
+	width: 700px;
+	margin: 80px auto ;
+  font-family:'Roboto', sans-serif;,
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  	.container {
+    	width: 700px;
+    
+    }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  	.container {
+   		 width: 500px;
+    }
+}
+
+@media (max-width: 640px) {
+  /* For a screen < 540px, this */
+  	.container {
+    	width: 300px;
+    }
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F9F9F9;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+}
+
+.cookie-banner {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	display: none;
+}
+
+.cookie-banner p {
+	margin: 0;
+	padding: 5px 0;
+}
+
+.cookie-banner button {
+	padding: 10px 20px;
+	background-color: #FFF;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.cookie-banner button:hover {
+	background-color: #EEE;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F9F9F9;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #FFF;
+	padding: 30px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #DDD;
+}
+
+form input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #0000;
+	color: #000000;
+	padding: 20px;
+	text-align: center;
+}

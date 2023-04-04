@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luxuxy World</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Femmes</a></li>
+				<li><a href="#">Hommes</a></li>
+				<li><a href="#">Enfants</a></li>
+				<li><a href="#">Accessoires</a></li>
+				<li><a href="#">À propos</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	    </header>
+	<div class="banner">
+	<div class="container">
+		    <h1> Luxury World</h1>
+			<h2>Vivez comme une star pour pas cher</h2>
+			<a href="#apply-section" class="btn-blue" >Réservez vos articles</a>
+		</div>
+	</div>
+		<div class="container">
+			
+				<h2 class="orange">Qui sommes nous ? </h2>
+				<p>Nous sommes un groupe de jeunes diplômés des quatre coins du monde qui souhaitent faciliter l'accès aux produits de luxe à ceux qui en ont temporairement besoin. Nous proposons à nos clients des pièces des plus grandes marques à prix abordables.</p>
+			
+			
+			<h2 class="orange">Notre équipe</h2>
+			<div class="cards">
+				<div class="card">
+					<img src="emma.jpeg" class="img-circle" width="100px" alt= "emma"> 
+			
+				</div>
+				<div class="card">
+					<img src="fer.jpg" class="img-circle" width="100px" alt= "fer"> 
+				
+				</div>	
+				<div class="card">
+					<img src="jeanne.jpg" class="img-circle" width="100px" alt="jeanne">
+				</div>	
+					
+				<div class="card">
+					<img src="apo.jpg" class="img-circle" width="100px" alt="apo">
+				</div>
+				
+				<div class="card">
+					<img src="elmie.jpeg" class="img-circle" width="100px" alt="elmie">
+				</div>
+				
+				<div class="card">
+					<img src="alessia.jpeg" class="img-circle" width="100px" alt="alessia">
+				</div>
+				
+				
+			</div> 
+				
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon site avec des cookies</title>
+</head>
+<body>
+
+	<header>
+		<h1>Voyagez dans un monde luxueux !</h1>
+	</header>
+
+	<main>
+		<h2>Inscrivez-vous à notre newsletter pour ne rater aucune nouveauté !</h2>
+
+		<form action="set-cookie.php" method="post">
+			<label for="username">Votre email :</label>
+			<input type="text" name="username" id="username">
+			<input type="submit" value="Enregistrer">
+		</form>
+	</main>
+
+	<div>
+				<h2 class="orange">Suivez-nous sur les réseaux sociaux !</h2>
+					<ul class="list-inline">
+						<li>
+							<a target="blank_" class="btn-blue" href="https://www.instagram.com/emma.mtzs/">
+							<i class="fab fa-instagram"></i> 
+						
+							</a>
+
+						</li>
+					
+						<li>
+							<a target="blank_" class="btn-blue" href="https://www.linkedin.com/in/emma-montauz%C3%A9-simic-079788261/"><i class="fab fa-linkedin"></i></a>
+						</li>
+
+                        <li>
+							<a target="blank_" class="btn-blue" href="https://www.facebook.com/profile.php?id=100084509065602"><i class="fa-brands fa-facebook"></i></a>
+						</li>
+					</ul>
+			</div>	
+
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon site avec demande d'acceptation des cookies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+	<div class="cookie-banner">
+		<p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. En poursuivant votre navigation sur ce site, vous acceptez notre utilisation des cookies. <button onclick="acceptCookies()">J'accepte</button></p>
+	</div>
+
+	<script>
+		function acceptCookies() {
+			document.cookie = "acceptedCookies=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+			document.querySelector(".cookie-banner").style.display = "none";
+		}
+
+		if(!document.cookie.includes("acceptedCookies=true")) {
+			document.querySelector(".cookie-banner").style.display = "block";
+		}
+	</script>
+</body>
+</html>
+
